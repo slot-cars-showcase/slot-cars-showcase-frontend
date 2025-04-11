@@ -1,6 +1,6 @@
 {
-  "$schema": "https://ui.shadcn.com/schema.json",
-  "style": "new-york",
+  "$schema": "https://nyxbui.design/schema.json",
+  "style": "default",
   "rsc": false,
   "tsx": true,
   "tailwind": {

@@ -27,6 +27,5 @@ jobs:
       - name: Run linting
         run: npm run lint
 
-      - name: Run TypeScript checks for marketing-checkout
-        working-directory: ./apps/marketing-checkout
+      - name: Run TypeScript checks
         run: npm run typecheck

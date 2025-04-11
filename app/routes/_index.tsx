@@ -1,4 +1,5 @@
-import type { Route } from './+types/home';
+import { Outlet } from 'react-router';
+import type { Route } from './+types/_index';
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -8,5 +9,10 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <h1>HOME</h1>;
+  return (
+    <div>
+      <p>This is the index route of your app.</p>
+      <Outlet />
+    </div>
+  );
 }

@@ -41,7 +41,15 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  return (
+    <div className="grid min-h-screen grid-rows-[auto_1fr_auto]">
+      <header>HEADER</header>
+      <main>
+        <Outlet />
+      </main>
+      <footer>footer</footer>
+    </div>
+  );
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

@@ -1,0 +1,32 @@
+name: Lint and TypeScript Check
+
+on:
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  validate:
+    name: Lint and TypeScript Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "22"
+          cache: "npm"
+          registry-url: "https://npm.pkg.github.com"
+          scope: "@your-org"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run linting
+        run: npm run lint
+
+      - name: Run TypeScript checks for marketing-checkout
+        working-directory: ./apps/marketing-checkout
+        run: npm run typecheck

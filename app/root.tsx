@@ -8,6 +8,7 @@ import {
 } from 'react-router';
 import './styles/globals.css';
 import type { Route } from './+types/root';
+import { NavBar } from './components/NavBar/NavBar';
 
 export const links: Route.LinksFunction = () => [
   { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
@@ -43,7 +44,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 export default function App() {
   return (
     <div className="grid min-h-screen grid-rows-[auto_1fr_auto]">
-      <header>HEADER</header>
+      <NavBar />
       <main>
         <Outlet />
       </main>

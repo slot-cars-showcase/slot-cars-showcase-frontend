@@ -25,6 +25,7 @@ export default tseslint.config(
       ],
       'no-empty-pattern': 'off',
       '@typescript-eslint/consistent-type-imports': 'error',
+      '@typescript-eslint/no-empty-object-type': 'off',
     },
   },
 );

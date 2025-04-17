@@ -13,7 +13,9 @@ export default function Home() {
   return (
     <div>
       <p>This is the index route of your app.</p>
-      <LandingCarousel />
+      <section className="bg-background">
+        <LandingCarousel />
+      </section>
       <Outlet />
     </div>
   );

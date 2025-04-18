@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router';
 import type { Route } from './+types/_index';
+import { LandingCarousel } from '@/components/LandingCarousel/LandingCarousel';
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -12,6 +13,9 @@ export default function Home() {
   return (
     <div>
       <p>This is the index route of your app.</p>
+      <section className="bg-background">
+        <LandingCarousel />
+      </section>
       <Outlet />
     </div>
   );

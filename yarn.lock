@@ -7587,6 +7587,7 @@ __metadata:
     tailwindcss: "npm:^4.1.3"
     tailwindcss-animate: "npm:^1.0.7"
     tw-animate-css: "npm:^1.2.4"
+    types-slot-cars: "npm:^0.0.7"
     typescript: "npm:^5.8.2"
     typescript-eslint: "npm:^8.25.0"
     vite: "npm:^5.4.11"
@@ -8067,6 +8068,15 @@ __metadata:
   version: 0.0.6
   resolution: "typedarray@npm:0.0.6"
   checksum: 10c0/6005cb31df50eef8b1f3c780eb71a17925f3038a100d82f9406ac2ad1de5eb59f8e6decbdc145b3a1f8e5836e17b0c0002fb698b9fe2516b8f9f9ff602d36412
+  languageName: node
+  linkType: hard
+
+"types-slot-cars@npm:^0.0.7":
+  version: 0.0.7
+  resolution: "types-slot-cars@npm:0.0.7"
+  peerDependencies:
+    zod: ^3.24.3
+  checksum: 10c0/c019560ae280c9d519c68df7ea18ef9b321c4953b9106144a9a9db333efa3ba0afdb830aa8e0556259cb871d577b4dbb7115ee0b8799814b079d3eaeadf90454
   languageName: node
   linkType: hard
 

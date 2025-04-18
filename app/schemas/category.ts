@@ -9,6 +9,7 @@ export const CATEGORIES = {
   RALLY: 'Rally',
   RALLY_CLASSIC: 'Rally Classic',
   RALLY_MODERN: 'Rally Modern',
+  LE_MANS: 'Le Mans',
 } as const;
 
 export const GetCategoryResponse = z.object({

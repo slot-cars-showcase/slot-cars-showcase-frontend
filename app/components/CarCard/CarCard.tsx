@@ -1,4 +1,4 @@
-import type { Car } from '@/schemas/car';
+import type { Car } from 'types-slot-cars';
 import {
   Card,
   CardContent,

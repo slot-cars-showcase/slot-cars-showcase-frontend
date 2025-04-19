@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { CarCard } from './CarCard';
 import Image from '@/assets/cars/CA18g-FORD-GT40-n7-3rd-24h-Le-Mans-1969-SIDE-OK-colore-e-dimensione-768x512.webp';
-import type { Car } from '@/schemas/car';
+import type { Car } from 'types-slot-cars';
 
 const meta: Meta<typeof CarCard> = {
   title: 'Components/CarCard',

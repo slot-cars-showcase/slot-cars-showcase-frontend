@@ -30,7 +30,9 @@ const data: Car = {
   year: 1966,
   category: ['Le Mans'],
   images: {
-    perspective_diagonal_front_left: Image,
+    perspective: {
+      front_left: Image,
+    },
   },
 };
 

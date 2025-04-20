@@ -9,12 +9,18 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
+const CAROUSEL_IMAGES = [
+  'https://raw.githubusercontent.com/PauVelasco77/slot-cars-images/refs/heads/main/images/avant-slot/cover/toyota_yaris.webp',
+  'https://raw.githubusercontent.com/PauVelasco77/slot-cars-images/refs/heads/main/images/avant-slot/cover/opel_manta.webp',
+  'https://raw.githubusercontent.com/PauVelasco77/slot-cars-images/refs/heads/main/images/avant-slot/cover/toyota_GR10.webp',
+];
+
 export default function Home() {
   return (
     <div>
       <p>This is the index route of your app.</p>
       <section className="bg-background">
-        <LandingCarousel />
+        <LandingCarousel images={CAROUSEL_IMAGES} />
       </section>
       <Outlet />
     </div>

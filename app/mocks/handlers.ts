@@ -18,7 +18,9 @@ export const handlers = [
         year: 1966,
         category: ['Le Mans'],
         images: {
-          perspective_diagonal_front_left: Image,
+          prespective: {
+            front_left: Image,
+          },
         },
       },
       {

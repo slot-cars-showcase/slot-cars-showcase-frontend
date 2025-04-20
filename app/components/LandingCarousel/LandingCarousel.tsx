@@ -14,7 +14,7 @@ export const LandingCarousel = ({ images }: LandingCarouselProps) => {
   );
   return (
     <Carousel
-      className="border-primary bg-background w-full border-2"
+      className="bg-background w-full"
       plugins={[plugin.current]}
       onMouseEnter={() => plugin.current.stop()}
       onMouseLeave={() => plugin.current.play()}

@@ -16,7 +16,7 @@ export const CarCard = ({ car }: SlotCarProps) => {
     <Card>
       <CardContent className="relative overflow-hidden pt-6">
         <img
-          src={car.images.perspective_diagonal_front_left}
+          src={car.images?.perspective?.front_left}
           alt={`${car.name} - front left view`}
           className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
         />

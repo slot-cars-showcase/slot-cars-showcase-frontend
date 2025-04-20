@@ -3144,8 +3144,8 @@ __metadata:
   linkType: hard
 
 "@vitejs/plugin-react@npm:^4.3.4":
-  version: 4.4.0
-  resolution: "@vitejs/plugin-react@npm:4.4.0"
+  version: 4.4.1
+  resolution: "@vitejs/plugin-react@npm:4.4.1"
   dependencies:
     "@babel/core": "npm:^7.26.10"
     "@babel/plugin-transform-react-jsx-self": "npm:^7.25.9"
@@ -3154,7 +3154,7 @@ __metadata:
     react-refresh: "npm:^0.17.0"
   peerDependencies:
     vite: ^4.2.0 || ^5.0.0 || ^6.0.0
-  checksum: 10c0/a3e71dd6f67cca6a2a9ef3a8176bb30b58926fc93c01fa3f15c374aaca0a49fdd01d91fb22b84031ec47175563ad20659167800b1373ede8c4f0b94452ccfeba
+  checksum: 10c0/0eda45f2026cdfff4b172b1b2148824e5ac41ce65f1f1ce108f3ce4de2f0024caf79c811c1305a782168a269b0b1bc58d4cf8eaf164e4ef19954f05428ba7077
   languageName: node
   linkType: hard
 
@@ -3637,9 +3637,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001688":
-  version: 1.0.30001714
-  resolution: "caniuse-lite@npm:1.0.30001714"
-  checksum: 10c0/b0e3372f018c5c177912f0282af98049057d83c80846293a4e3df728644a622db42a9e8971d6b7708d76e0fd4e9f6d5ce93802cf4e6818de80fdf371dc0f6a06
+  version: 1.0.30001715
+  resolution: "caniuse-lite@npm:1.0.30001715"
+  checksum: 10c0/0109a7da797ffbe1aa197baa5242b205011098eecec1087ef3d0c58ceea19be325ab6679b2751a78660adc3051a9f77e99d5789938fd1eb1235e6fdf6a1dbf8e
   languageName: node
   linkType: hard
 
@@ -4864,7 +4864,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fdir@npm:^6.4.3":
+"fdir@npm:^6.4.3, fdir@npm:^6.4.4":
   version: 6.4.4
   resolution: "fdir@npm:6.4.4"
   peerDependencies:
@@ -7606,7 +7606,7 @@ __metadata:
     tailwindcss: "npm:^4.1.3"
     tailwindcss-animate: "npm:^1.0.7"
     tw-animate-css: "npm:^1.2.4"
-    types-slot-cars: "npm:^0.0.10"
+    types-slot-cars: "npm:^0.0.11"
     typescript: "npm:^5.8.2"
     typescript-eslint: "npm:^8.25.0"
     vite: "npm:^5.4.11"
@@ -7919,12 +7919,12 @@ __metadata:
   linkType: hard
 
 "tinyglobby@npm:^0.2.12":
-  version: 0.2.12
-  resolution: "tinyglobby@npm:0.2.12"
+  version: 0.2.13
+  resolution: "tinyglobby@npm:0.2.13"
   dependencies:
-    fdir: "npm:^6.4.3"
+    fdir: "npm:^6.4.4"
     picomatch: "npm:^4.0.2"
-  checksum: 10c0/7c9be4fd3625630e262dcb19015302aad3b4ba7fc620f269313e688f2161ea8724d6cb4444baab5ef2826eb6bed72647b169a33ec8eea37501832a2526ff540f
+  checksum: 10c0/ef07dfaa7b26936601d3f6d999f7928a4d1c6234c5eb36896bb88681947c0d459b7ebe797022400e555fe4b894db06e922b95d0ce60cb05fd827a0a66326b18c
   languageName: node
   linkType: hard
 
@@ -8026,9 +8026,9 @@ __metadata:
   linkType: hard
 
 "tw-animate-css@npm:^1.2.4":
-  version: 1.2.5
-  resolution: "tw-animate-css@npm:1.2.5"
-  checksum: 10c0/6db58d82d3547b11596b90eeb1b951e6586c93010d464a4aadc96a72b8e5e842e5517d2ac83074cd821676c811ffc4ec99db66d1afb6ca3253d3f88e6390c575
+  version: 1.2.7
+  resolution: "tw-animate-css@npm:1.2.7"
+  checksum: 10c0/002610f781632d5a7b29428f3edf3923097cf028231ad2a916600035fe121e45834f0a755747aff1aa137507b3d77a431b306fdc873111e884be076998b6037b
   languageName: node
   linkType: hard
 
@@ -8090,12 +8090,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"types-slot-cars@npm:^0.0.10":
-  version: 0.0.10
-  resolution: "types-slot-cars@npm:0.0.10"
+"types-slot-cars@npm:^0.0.11":
+  version: 0.0.11
+  resolution: "types-slot-cars@npm:0.0.11"
   peerDependencies:
     zod: ^3.24.3
-  checksum: 10c0/3e2016d2404fbb5871ef2ccf8b7611200450d8a26ea470408d011a157ce1a212f960324b9c6bbe57c05f8d4c5229a783295413fd03b31526bd332b41cb18a7a3
+  checksum: 10c0/15f6019ca9174cc58a178df405ed88f95b3741c030249f97605414838c896df402a0c39d76ef0f5a52768a9d7364c5cd182cf0485a5301d4c3e4f9203dd23fd9
   languageName: node
   linkType: hard
 

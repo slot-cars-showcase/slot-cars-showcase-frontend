@@ -14,7 +14,7 @@ export const LandingCarousel = ({ images }: LandingCarouselProps) => {
   );
   return (
     <Carousel
-      className="w-full"
+      className="border-primary bg-background w-full border-2"
       plugins={[plugin.current]}
       onMouseEnter={() => plugin.current.stop()}
       onMouseLeave={() => plugin.current.play()}
@@ -35,7 +35,7 @@ export const LandingCarousel = ({ images }: LandingCarouselProps) => {
             <img
               src={image}
               alt={`Image ${index + 1}`}
-              className="max-h-[50vh] w-full object-contain"
+              className="max-h-[50vh] w-full object-cover"
             />
           </CarouselItem>
         ))}

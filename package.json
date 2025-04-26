@@ -6,7 +6,7 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
-    "phoenix": "rimraf yarn.lock node_modules && yarn",
+    "phoenix": "rimraf bun.lock node_modules && bun install",
     "typecheck": "react-router typegen && tsc -b",
     "lint": "eslint .",
     "storybook": "storybook dev -p 6006",
@@ -70,7 +70,6 @@
       "plugin:storybook/recommended"
     ]
   },
-  "packageManager": "yarn@4.6.0+sha224.acd0786f07ffc6c933940eb65fc1d627131ddf5455bddcc295dc90fd",
   "msw": {
     "workerDirectory": [
       "public"

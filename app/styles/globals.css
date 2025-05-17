@@ -104,3 +104,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: none;
+}
